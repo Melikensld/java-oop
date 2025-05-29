@@ -29,7 +29,10 @@ public class Main {
 //        int sum3 = calculator.add(7,8,9);
 //        System.out.println(sum3);
 
-        int result = Calculator.multiply(8, 6);
-        System.out.println("Çarpım sonucu: " +result);
+//        int result = Calculator.multiply(8, 6);
+//        System.out.println("Çarpım sonucu: " +result);
+
+        Student student = new Student("Melike", 23, "ESTU");
+        student.displayStudent();
     }
 }

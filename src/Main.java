@@ -32,7 +32,12 @@ public class Main {
 //        int result = Calculator.multiply(8, 6);
 //        System.out.println("Çarpım sonucu: " +result);
 
-        Student student = new Student("Melike", 23, "ESTU");
-        student.displayStudent();
+//        Student student = new Student("Melike", 23, "ESTU");
+//        student.displayStudent();
+
+        Circle circle = new Circle();
+        Rectangle rectangle = new Rectangle();
+        circle.draw();
+        rectangle.draw();
     }
 }

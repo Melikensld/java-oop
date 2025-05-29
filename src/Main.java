@@ -22,11 +22,14 @@ public class Main {
 //        cat.makeSound();
 //        dog.makeSound();
 
-        Calculator calculator = new Calculator();
+//        Calculator calculator = new Calculator();
+//
+//        int sum2 = calculator.add(6,8);
+//        System.out.println(sum2);
+//        int sum3 = calculator.add(7,8,9);
+//        System.out.println(sum3);
 
-        int sum2 = calculator.add(6,8);
-        System.out.println(sum2);
-        int sum3 = calculator.add(7,8,9);
-        System.out.println(sum3);
+        int result = Calculator.multiply(8, 6);
+        System.out.println("Çarpım sonucu: " +result);
     }
 }

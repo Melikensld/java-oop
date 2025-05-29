@@ -1,4 +1,4 @@
-public class Car {
+public class Car extends Vehicle{
     private String brand;
     private String model;
     private int year;

@@ -8,9 +8,11 @@ public class Main {
         myCar.setBrand("Mercedes");
         myCar.setModel("C200");
         myCar.setYear(2023);
+        myCar.setSpeed(120);
 
         System.out.println("Marka: " + myCar.getBrand());
         System.out.println("Model: " + myCar.getModel());
         System.out.println("Yıl: " + myCar.getYear());
+        System.out.println("Arabanın hızı: " + myCar.getSpeed() + " km/s");
     }
 }

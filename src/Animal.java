@@ -1,5 +1,3 @@
-public class Animal {
-    public void makeSound(){
-        System.out.println("Hayvan sesi");
-    }
+public interface Animal {
+    void sound();
 }

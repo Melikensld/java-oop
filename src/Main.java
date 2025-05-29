@@ -35,9 +35,14 @@ public class Main {
 //        Student student = new Student("Melike", 23, "ESTU");
 //        student.displayStudent();
 
-        Circle circle = new Circle();
-        Rectangle rectangle = new Rectangle();
-        circle.draw();
-        rectangle.draw();
+//        Circle circle = new Circle();
+//        Rectangle rectangle = new Rectangle();
+//        circle.draw();
+//        rectangle.draw();
+
+        Dog dog = new Dog();
+        dog.sound();
+        Cat cat = new Cat();
+        cat.sound();
     }
 }

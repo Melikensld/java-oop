@@ -14,5 +14,6 @@ public class Main {
         System.out.println("Model: " + myCar.getModel());
         System.out.println("Yıl: " + myCar.getYear());
         System.out.println("Arabanın hızı: " + myCar.getSpeed() + " km/s");
+        myCar.start();
     }
 }

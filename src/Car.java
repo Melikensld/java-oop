@@ -3,6 +3,11 @@ public class Car extends Vehicle{
     private String model;
     private int year;
 
+    @Override
+    public void start(){
+        System.out.println("Mercedes çalıştırılıyor.");
+    }
+
     public String getBrand() {
         return brand;
     }

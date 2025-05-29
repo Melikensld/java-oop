@@ -16,10 +16,17 @@ public class Main {
 //        System.out.println("Arabanın hızı: " + myCar.getSpeed() + " km/s");
 //        myCar.start();
 
-        Animal cat = new Cat();
-        Animal dog = new Dog();
+//        Animal cat = new Cat();
+//        Animal dog = new Dog();
+//
+//        cat.makeSound();
+//        dog.makeSound();
 
-        cat.makeSound();
-        dog.makeSound();
+        Calculator calculator = new Calculator();
+
+        int sum2 = calculator.add(6,8);
+        System.out.println(sum2);
+        int sum3 = calculator.add(7,8,9);
+        System.out.println(sum3);
     }
 }

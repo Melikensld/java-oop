@@ -100,13 +100,26 @@ public class Main {
 //            System.out.println("Geçersiz giriş. Lütfen bir tam sayı girin.");
 //        }
 
-        ArrayList<Integer> nums = new ArrayList<>();
-        nums.add(10);
-        nums.add(20);
-        nums.add(30);
-        nums.add(40);
-        nums.add(50);
+//        // LAMBDA EXPRESSIONS
+//        ArrayList<Integer> nums = new ArrayList<>();
+//        nums.add(10);
+//        nums.add(20);
+//        nums.add(30);
+//        nums.add(40);
+//        nums.add(50);
+//
+//        nums.forEach(num -> System.out.println(num));
 
-        nums.forEach(num -> System.out.println(num));
+        // WRAPPER
+        int value = 62;
+
+        Integer wrapped = value;
+
+        int unboxed = wrapped;
+
+        System.out.println("Primitive int value: " + value);
+        System.out.println("Wrapped Integer value: " + wrapped);
+        System.out.println("Unboxed int value: " + unboxed);
+
     }
 }

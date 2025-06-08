@@ -40,9 +40,12 @@ public class Main {
 //        circle.draw();
 //        rectangle.draw();
 
-        Dog dog = new Dog();
-        dog.sound();
-        Cat cat = new Cat();
-        cat.sound();
+//        Dog dog = new Dog();
+//        dog.sound();
+//        Cat cat = new Cat();
+//        cat.sound();
+
+        Gun bugün = Gun.CUMA;
+        System.out.println("Bugün günlerden: " +bugün);
     }
 }

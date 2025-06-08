@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -60,13 +61,23 @@ public class Main {
         //     System.out.println(i);
         // }
 
-        HashSet<String> fruits = new HashSet<>();
-        fruits.add("elma");
-        fruits.add("elma");
-        fruits.add("muz");
-        fruits.add("kiraz");
-        for (String fruit : fruits){
-            System.out.println(fruit);
+//        // HASHSET EXAMPLE
+//        HashSet<String> fruits = new HashSet<>();
+//        fruits.add("elma");
+//        fruits.add("elma");
+//        fruits.add("muz");
+//        fruits.add("kiraz");
+//        for (String fruit : fruits){
+//            System.out.println(fruit);
+//        }
+
+        HashMap<String, Integer> students = new HashMap<>();
+        students.put("Ahmet", 90);
+        students.put("Ayşe", 85);
+        students.put("Mehmet", 75);
+
+        for (String i : students.keySet()) {
+            System.out.println(i + " : " + students.get(i));
         }
     }
 }

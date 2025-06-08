@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -49,13 +50,23 @@ public class Main {
 //        Gun bugün = Gun.CUMA;
 //        System.out.println("Bugün günlerden: " +bugün);
 
-        ArrayList<String> cities = new ArrayList<>();
-        cities.add("İzmir");
-        cities.add("Ankara");
-        cities.add("İstanbul");
+        // // ARRAYLIST EXAMPLE
+        // ArrayList<String> cities = new ArrayList<>();
+        // cities.add("İzmir");
+        // cities.add("Ankara");
+        // cities.add("İstanbul");
+        //
+        // for (String i : cities) {
+        //     System.out.println(i);
+        // }
 
-        for (String i : cities) {
-            System.out.println(i);
+        HashSet<String> fruits = new HashSet<>();
+        fruits.add("elma");
+        fruits.add("elma");
+        fruits.add("muz");
+        fruits.add("kiraz");
+        for (String fruit : fruits){
+            System.out.println(fruit);
         }
     }
 }

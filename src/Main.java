@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -45,7 +46,16 @@ public class Main {
 //        Cat cat = new Cat();
 //        cat.sound();
 
-        Gun bugün = Gun.CUMA;
-        System.out.println("Bugün günlerden: " +bugün);
+//        Gun bugün = Gun.CUMA;
+//        System.out.println("Bugün günlerden: " +bugün);
+
+        ArrayList<String> cities = new ArrayList<>();
+        cities.add("İzmir");
+        cities.add("Ankara");
+        cities.add("İstanbul");
+
+        for (String i : cities) {
+            System.out.println(i);
+        }
     }
 }

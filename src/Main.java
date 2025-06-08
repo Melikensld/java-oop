@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -71,13 +72,31 @@ public class Main {
 //            System.out.println(fruit);
 //        }
 
-        HashMap<String, Integer> students = new HashMap<>();
-        students.put("Ahmet", 90);
-        students.put("Ayşe", 85);
-        students.put("Mehmet", 75);
+//       // HASHMAP EXAMPLE
+//        HashMap<String, Integer> students = new HashMap<>();
+//        students.put("Ahmet", 90);
+//        students.put("Ayşe", 85);
+//        students.put("Mehmet", 75);
+//
+//        for (String i : students.keySet()) {
+//            System.out.println(i + " : " + students.get(i));
+//        }
 
-        for (String i : students.keySet()) {
-            System.out.println(i + " : " + students.get(i));
+        Scanner scanner = new Scanner(System.in);
+        try {
+            System.out.print("Birinci sayıyı girin: ");
+            double sayi1 = scanner.nextDouble();
+
+            System.out.print("İkinci sayıyı girin: ");
+            double sayi2 = scanner.nextDouble();
+
+            double sonuc = sayi1 / sayi2;
+            System.out.println("Sonuç: " + sonuc);
+
+        } catch (ArithmeticException e) {
+            System.out.println("Hata: Bir sayı sıfıra bölünemez.");
+        } catch (Exception e) {
+            System.out.println("Geçersiz giriş. Lütfen bir tam sayı girin.");
         }
     }
 }

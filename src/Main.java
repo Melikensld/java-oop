@@ -82,21 +82,31 @@ public class Main {
 //            System.out.println(i + " : " + students.get(i));
 //        }
 
-        Scanner scanner = new Scanner(System.in);
-        try {
-            System.out.print("Birinci sayıyı girin: ");
-            double sayi1 = scanner.nextDouble();
+//        // TRY-CATCH
+//        Scanner scanner = new Scanner(System.in);
+//        try {
+//            System.out.print("Birinci sayıyı girin: ");
+//            double sayi1 = scanner.nextDouble();
+//
+//            System.out.print("İkinci sayıyı girin: ");
+//            double sayi2 = scanner.nextDouble();
+//
+//            double sonuc = sayi1 / sayi2;
+//            System.out.println("Sonuç: " + sonuc);
+//
+//        } catch (ArithmeticException e) {
+//            System.out.println("Hata: Bir sayı sıfıra bölünemez.");
+//        } catch (Exception e) {
+//            System.out.println("Geçersiz giriş. Lütfen bir tam sayı girin.");
+//        }
 
-            System.out.print("İkinci sayıyı girin: ");
-            double sayi2 = scanner.nextDouble();
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(10);
+        nums.add(20);
+        nums.add(30);
+        nums.add(40);
+        nums.add(50);
 
-            double sonuc = sayi1 / sayi2;
-            System.out.println("Sonuç: " + sonuc);
-
-        } catch (ArithmeticException e) {
-            System.out.println("Hata: Bir sayı sıfıra bölünemez.");
-        } catch (Exception e) {
-            System.out.println("Geçersiz giriş. Lütfen bir tam sayı girin.");
-        }
+        nums.forEach(num -> System.out.println(num));
     }
 }
